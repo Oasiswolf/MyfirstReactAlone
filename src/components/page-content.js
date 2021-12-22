@@ -8,8 +8,8 @@ export default function () {
     return(
         <div>
             <Switch>
-                <Route exact path='/rules' component={Rules}/>
-                <Route exact path='/gameColor' component={Game}/>
+                <Route path='/rules' component={ Rules } />
+                <Route path='/gameColor' component={ Game } />
             </Switch>
         </div>
     )
